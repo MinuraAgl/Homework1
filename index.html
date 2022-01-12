@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Главная страница</title>
+
+    <meta name="author" content="Minura">
+    <meta charset="utf-8">
+    <meta name="description" content="Тестовая страница">
+    <meta name="keywords" content="тест, проверка, html">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+  <header>
+    <!--Заголовки от h1 до h6 -->
+    <h1>Заголовок <small>1</small></h1>        <!--цифра 1 маленькая-->
+    <h2><i>Заголовок <big>2</big></i></h2>     <!--цифра 2 большая-->
+    <h3><strike>Заголовок 3</strike></h3>       <!--<strike> Перечеркнуто-->
+    <h4>Заголовок 4</h4>
+    <h5>Заголовок 5</h5>
+    <h6>Заголовок 6</h6>
+  </header>
+
+
+   <!--<pre>  вывод кода с сохранением всех отступов...-->
+   <main>
+    <pre>function some() {
+      return "Some"
+    }</pre>
+
+   <!--<code> небольшой кусочек кода...-->
+    <code>
+      let x = 0;
+    </code>
+
+    <p><b>Просто текст</b></p>      <!-- <b> жирно, <p> абзац-->
+    <p>Просто <em>текст</em></p>    <!--<em> курсив-->
+
+    a<sup>2</sup><br><hr>           <!--формула, <sup> выше основного ряда-->
+    H<sub>2</sub>O               <!--формула, <sub> ниже основного ряда-->
+       <!--br-перенос строки, hr- горизонтальная линия-->
+
+    <!--Появляется всплывающая подсказка при наведении курсора на HTML-расшифровка-->
+    <abbr title="HyperText Markup Language">HTML</abbr>
+
+    <address>
+      Seattle, USA   <!--тег адрес-->
+    </address>
+
+
+    <!--<lo> Нумерованный список-->
+    <ol start="1" type="a">    <!-- start- с какой цифры начинать,
+      type- каким образом будет отображаться a или I и т.д.-->
+      <i><li>купи <b>молоко</b></li>
+      <li>купи <b>картошку</b></li>
+      <li>купи <b>машину</b></li>
+      <li><strike>купи <b>сок</strike></b></li></i>
+    </ol>
+
+<!-- <ul> Ненумерованный список-->
+    <ul>
+        <big><li>купи молоко</li>
+        <li>купи картошку</li>
+        <li>купи машину</li></big>
+    </ul>
+  </body>
+
+
+  <body>
+    <p title="Some">Some text</p>
+  </main>
+  </body>
+  <body>
+  <aside>
+    <a href="#bottomofpage">Вниз</a>
+
+    <a href="https://www.google.com/" title="Нажми на меня"
+    target="_blank">Перейти в Google</a><br>
+    <!--<_blank>  новая вкладка-->
+    <a href="about.html">Перейти на страницу про нас</a>
+    <a name="bottomofpage"></a><br>
+
+    HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») —
+    стандартизированный язык разметки документов для просмотра веб-страниц в браузере.
+    Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска,
+    далее интерпретируют код в интерфейс, который будет отображаться на экране монитора<br>
+
+    <a href="mailto:user@mail.com">Написать на почту</a>
+
+  </body>
+
+<!--Использование графики в разметке-->
+<body><br>
+<img src="https://hips.12hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg"
+width="500px" height="auto" title="This is a cat" alt="cat"><br>
+<img src="images/dog.jfif" title="This is a dog" alt="dog">
+</aside>
+</body>
+
+
+<!--Таблицы-->
+<body>
+  <footer>
+  <p>
+    <table border="2" width="500px">
+    <thead>
+      <tr>
+        <th><em>id</em></th>             <!--tr-для создания ряда-->
+        <th><em>Имя</em></th>             <!--th-для шапки-->
+        <th><em>Фамилия</em></th>
+      </tr>
+    </thead>
+    <tbody align="center">
+      <tr>
+        <td>1</td>
+        <td>John</td>       <!--td-просто столбец-->
+        <td>Dale</td>
+
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>John</td>
+        <td>Dale</td>
+
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>Dale</td>
+
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>John</td>
+        <td>Dale</td>
+
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>John</td>
+        <td>Dale</td>
+
+      </tr>
+
+    </tbody>
+    <tfoot align="center">
+      <tr>
+        <td><b>#</b></td>
+        <td><b>Last</b></td>
+        <td><b>One</b></td>
+
+      </tr>
+
+    </tfoot>
+
+
+  </table>
+</p>
+</body>
+
+
+<body>
+<script src="script.js">
+
+</script>
+</body>
+
+<body>
+<div>Просто <span>текст</span></div>
+<div>Просто текст</div>
+
+</body>
+
+<!--Введение в HTML формы-->
+<body>
+  <form action="" method="post">
+    <label>Введите имя</label>
+    <input type="text" placeholder=" Введите что-то"
+    value="что-то" maxlength="6" hidden >
+
+
+  </form>
+  </footer>
+</body>
+<body>
+  <progress max="100" value="45">
+    Загружено на 45%
+  </progress>
+  <details>
+    <summary>Подробнее</summary>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+   sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  </details>
+</body>
+
+
+
+</html>
